@@ -5,6 +5,8 @@ import de.ochota.gm_assistant_backend.service.RegionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/region")
 public class RegionController {
@@ -12,9 +14,16 @@ public class RegionController {
     @Autowired
     private RegionService regionService;
 
+    @CrossOrigin(origins = "*")
     @GetMapping("/find/{id}")
     public Region getById(@PathVariable String id) {
         return regionService.getRegionById(id);
+    }
+
+    @CrossOrigin(origins = "*")
+    @GetMapping("/all")
+    public List<Region> getAll() {
+        return regionService.getAll();
     }
 
 //    @PostMapping("/insert")

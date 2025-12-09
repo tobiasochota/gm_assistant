@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e377a83-b514-42fd-a46a-f9cc1324767c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/gm_assistant_backend/src/main/java/de/ochota/gm_assistant_backend/GmAssistantBackendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gm_assistant_backend/src/main/java/de/ochota/gm_assistant_backend/GmAssistantBackendApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gm_assistant_backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gm_assistant_backend/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gm_assistant_backend/src/main/java/de/ochota/gm_assistant_backend/service/RegionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gm_assistant_backend/src/main/java/de/ochota/gm_assistant_backend/service/RegionService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +84,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;Spring Boot.GmAssistantBackendApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;backend/add__mongodb&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/ochot/Documents/repositories/gm_assistant&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -92,6 +92,9 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -100,6 +103,7 @@
     <configuration name="GmAssistantBackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="ms-17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="gm_assistant_backend" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="de.ochota.gm_assistant_backend.GmAssistantBackendApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,6 +138,8 @@
       <workItem from="1764679936210" duration="20000" />
       <workItem from="1764679962764" duration="300000" />
       <workItem from="1764680277099" duration="361000" />
+      <workItem from="1765105374044" duration="588000" />
+      <workItem from="1765106013223" duration="53000" />
     </task>
     <servers />
   </component>
