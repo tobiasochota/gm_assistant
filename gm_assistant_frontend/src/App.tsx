@@ -4,6 +4,7 @@ import './App.css';
 import Home from './home';
 import Header from './header';
 import RegionChooser from './components/region-chooser';
+import ChatDialog from './components/chat-dialog';
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <Home />
 
       <RegionChooser />
+
+      <ChatDialog />
     </div>
     
   );
