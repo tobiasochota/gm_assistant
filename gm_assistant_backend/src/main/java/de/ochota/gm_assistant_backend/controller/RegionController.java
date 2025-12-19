@@ -14,13 +14,13 @@ public class RegionController {
     @Autowired
     private RegionService regionService;
 
-    @CrossOrigin(origins = "*")
+    // @CrossOrigin(origins = "*")
     @GetMapping("/find/{id}")
     public Region getById(@PathVariable String id) {
         return regionService.getRegionById(id);
     }
 
-    @CrossOrigin(origins = "*")
+    // @CrossOrigin(origins = "http://localhost:3000")
     @GetMapping("/all")
     public List<Region> getAll() {
         return regionService.getAll();

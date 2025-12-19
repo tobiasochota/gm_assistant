@@ -1,4 +1,5 @@
 # gm_assistant
+Das Projekt wurde initial in Java 17 entwickelt und wurde für die Arbeit mit dem Docker Model Runner auf Java 21 migriert
 
 # Frontend
 Das Projekt befindet sich unter **gm_assistant_frontend**.
